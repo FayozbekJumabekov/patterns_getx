@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:patterns_getx/pages/home_page.dart';
+import 'package:patterns_getx/pages/setting_page.dart';
+import 'package:patterns_getx/services/di_service.dart';
 
-void main() {
+Future<void> main() async {
+  await DIService.init();
   runApp(const MyApp());
 }
 
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: HomePage(),
+      home: SettingPage(),
     );
   }
 }
