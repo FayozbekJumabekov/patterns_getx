@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:patterns_getx/controllers/home_controller.dart';
 import '../views/item_home_post.dart';
 
+
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 

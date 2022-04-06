@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:patterns_getx/pages/setting_page.dart';
+import 'package:patterns_getx/pages/payment_page.dart';
 import 'package:patterns_getx/services/di_service.dart';
 
 Future<void> main() async {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: SettingPage(),
+      home: PaymentPage(),
     );
   }
 }
